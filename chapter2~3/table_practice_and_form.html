@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style></style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th colspan="6">한국의 차</th>
+        </tr>
+        <tr>
+            <th rowspan="6">뿌리차</th>
+            <td>인삼차</td>
+            <th rowspan="10">과일차</th>
+            <td>수정과</td>
+            <th rowspan="5">잎차</th>
+            <td>뽕잎차</td>
+        </tr>
+        <tr>
+            <td>당귀차</td>
+            <td>유자차</td>
+            <td>감잎차</td>
+        </tr>
+        <tr>
+            <td>생강차</td>
+            <td>구기자차</td>
+            <td>솔잎차</td>
+        </tr>
+        <tr>
+            <td>칡차</td>
+            <td>대추차</td>
+            <td>국화차</td>
+        </tr>
+        <tr>
+            <td>둥글레차</td>
+            <td>오미자차</td>
+            <td>이슬차</td>
+        </tr>
+        <tr>
+            <td>마차</td>
+            <td>매실차</td>
+            <th rowspan="5">기타</th>
+            <td>두충차</td>
+        </tr>
+        <tr>
+            <th rowspan="4">곡물차</th>
+        </tr>
+        <tr>
+            <td>보리차</td>
+            <td>모과차</td>
+            <td>명지버섯차</td>
+        </tr>
+        <tr>
+            <td>옥수수차</td>
+            <td>산수유차</td>
+            <td>귤감차</td>
+        </tr>
+        <tr>
+            <td>현미차</td>
+            <td>탱자차</td>
+            <td>쌍화차</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <form>
+        <label for="name">아이디:</label> 
+        <input id="name" type="text"> <br>
+        패스워드: <input type="password" name=""> <br>
+        파일 업로드: <input type="file" value="사진파일"> <br>
+        버튼: <input type="button" value="확인"> <br>
+        <table>
+            <tr>
+                <td>
+                    <label for="username">이름</label>
+                </td>
+                <td>
+                    <input id="username" type="text" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td>성별</td>
+                <td>
+                    <input id="man" type="radio" name="gender" value="m"> <!--radio 타입: 선택, value: 값 리턴-->
+                    <label for="man">남자</label>
+                    <input id="woman" type="radio" name="gender" value="w"> <!--name=gender:남녀 둘중 하나만 선택-->
+                    <label for="woman">여자</label>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="가입"> <br>
+
+        <select multiple="multiple">
+            <option>a</option>
+            <option>b</option>
+            <option>c</option>
+            <option>d</option>
+        </select> <br>
+        <select>
+            <optgroup label="HTML5">
+                <option>글자</option>
+                <option>표</option>
+                <option>입력양식</option>
+            </optgroup>
+            <optgroup label="CSS">
+                <option>정렬</option>
+                <option>글자</option>
+                <option>테두리</option>
+            </optgroup>
+        </select>
+        <br><br>
+        건의사항을 입력하세요. <br>
+        <textarea cols="40" rows="10">
+
+        </textarea>
+        <fieldset>
+            <legend>입력 양식</legend>
+            <table>
+                <tr>
+                    <td>
+                        <labe for="name">이름</labe>
+                    </td>
+                    <td>
+                        <input id="name" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">이메일</label>
+                    </td>
+                    <td>
+                        <input id="mail" type="email">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit">
+        </fieldset>
+
+        <div>div태그</div> <!-- 한 행 전부 차지-->
+        <div>div태그</div>
+        <div>div태그</div>
+        <div>div태그</div>
+
+        <span>span태그</span>
+        <span>span태그</span>
+        <span>span태그</span>
+        <span>span태그</span>
+
+    </form>
+</body>
+
+</html> 

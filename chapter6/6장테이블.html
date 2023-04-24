@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>6장테이블</title>
+	<style>
+		* {
+			text-align: center;
+			padding: 10px;
+		}
+
+		table {
+			width: 600px;
+			height: 300px;
+			border: 3px solid blue;
+			border-collapse: collapse;
+		}
+
+		th {
+			background-color: lightblue;
+			border: 1px solid blue;
+		}
+
+		td {
+			border-color: blue;
+			border: 1px solid blue;
+		}
+	</style>
+
+
+
+</head>
+
+<body>
+	<table>
+		<caption style="font-size:15pt">멀티미디어학과 1학년 교육과정소개</caption>
+		<tr>
+			<th>이수구분</th>
+			<th>교과목</th>
+		</tr>
+		<tr>
+			<td rowspan="2">전선</td>
+			<td>멀티미디어개론</td>
+		</tr>
+		<tr>
+			<td>튜터링기반 프로그램</td>
+		</tr>
+		<tr>
+			<td rowspan="4">공기</td>
+			<td>공학및전공의이해</td>
+		</tr>
+		<tr>
+			<td>공학수학</td>
+		</tr>
+		<tr>
+			<td>기초물리 및 실험 1</td>
+		</tr>
+		<tr>
+			<td>기초물리 및 실험 2</td>
+		</tr>
+	</table>
+</body>
+
+</html>

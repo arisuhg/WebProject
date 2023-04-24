@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클래스 선택자</title>
+    <style>
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+        }
+
+        td {
+            border: solid 1px;
+            padding: 10px
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a.bdcolorChange:hover {
+            background-color: red;
+        }
+
+        a.textColor:hover {
+            color: red;
+        }
+
+        a.underline:hover {
+            text-decoration: underline;
+
+        }
+
+        a.box:hover {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                기본 스타일
+            </td>
+            <td>
+                <a href="https://www.naver.com">[네이버]</a>
+                <a href="https://www.daum.net">[다음]</a>
+                <a href="google.co.kr">[구글]</a>
+            </td>
+        </tr>
+        <td>
+            배경색 변경
+        </td>
+        <td>
+            <a href="https://www.naver.com" class="bdcolorChange">[네이버]</a>
+            <a href="https://www.daum.net" class="bdcolorChange">[다음]</a>
+            <a href="https://www.google.co.kr" class="bdcolorChange">[구글]</a>
+        </td>
+        <tr>
+            <td>텍스트 색상 변경</td>
+            <td>
+                <a href="https://www.naver.com" class="textColor">[네이버]</a>
+                <a href="https://www.daum.net" class="textColor">[다음]</a>
+                <a href="https://www.google.co.kr" class="textColor">[구글]</a>
+            </td>
+        </tr>
+        <tr>
+            <td>밑줄</td>
+            <td>
+                <a href="https://www.naver.com" class="underline">[네이버]</a>
+                <a href="https://www.daum.net" class="underline">[다음]</a>
+                <a href="https://www.google.co.kr" class="underline">[구글]</a>
+            </td>
+        </tr>
+        <tr>
+            <td>테두리</td>
+            <td>
+                <a href="https://www.naver.com" class="box">[네이버]</a>
+                <a href="https://www.daum.net" class="box">[다음]</a>
+                <a href="https://www.google.co.kr" class="box">[구글]</a>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

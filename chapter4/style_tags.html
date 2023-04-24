@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css basic tags</title>
+    <style>
+        #header {
+            width: 800px;
+            margin: 0 auto;
+            background: red;
+        }
+
+        #wrap {
+            width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #aside {
+            width: 200px;
+            float: left;
+            background: blue;
+        }
+
+        #content {
+            width: 600px;
+            float: left;
+            background: green;
+        }
+
+        .select {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+    <div id="wrap"> <!-- wrap 두 태그를 묶는다-->
+        <div id="aside">
+            <h1>#aside 태그</h1>
+        </div>
+        <div id="content">
+            <h1>#content 태그</h1>
+        </div>
+    </div>
+    <ul>
+        <li class="select">사과</li>
+        <li>감</li>
+        <li class="select">오렌지</li>
+        <li>바나나</li>
+    </ul>
+</body>
+
+</html>
